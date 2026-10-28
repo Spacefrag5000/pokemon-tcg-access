@@ -1,7 +1,7 @@
 POKEMON TRADING CARD GAME - BLIND ACCESSIBILITY MOD
 for the Game Boy Color game, USA version
 by Spacefrag5000
-Version 1.0
+Version 1.1
 
 ========================================================================
 WHAT THIS IS
@@ -26,9 +26,12 @@ The mod reads the game's own memory and text. It does not use OCR
 WHAT YOU NEED
 ========================================================================
 
-1. BizHawk, the emulator, in a version that has the "speech" Lua
-   library. You can tell by the file prism.dll in BizHawk's dll folder.
-   The mod was made and tested with BizHawk build 5d046ab.
+1. BizHawk, the emulator, in a version with speech support. The
+   regular BizHawk does not have it. Use Amethyst's accessible BizHawk,
+   Windows release 1.1: download the file bizhawk-win.zip from
+   https://github.com/RealAmethyst/BizHawk/releases/tag/v1.1
+   The mod was made and tested with exactly that build. A BizHawk with
+   speech support has the file prism.dll in its dll folder.
 
 2. A screen reader. The mod was made with NVDA. BizHawk's speech
    library also supports other screen readers, but only NVDA has been
@@ -148,6 +151,12 @@ Claude wrote and tested the code.
 
 Built with the help of the pret "poketcg" disassembly project, which
 documents how the game works. No part of the game is included here.
+
+The mod speaks through Amethyst's accessible BizHawk, which adds the
+speech Lua library to BizHawk. It uses the prism screen reader library
+(github.com/ethindp/prism). BizHawk itself is made by the TASEmulators
+team. None of these are included here; download BizHawk as described
+under WHAT YOU NEED.
 
 
 ========================================================================
