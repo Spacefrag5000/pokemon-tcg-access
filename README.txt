@@ -1,7 +1,7 @@
 POKEMON TRADING CARD GAME - BLIND ACCESSIBILITY MOD
 for the Game Boy Color game, USA version
 by Spacefrag5000
-Version 1.1
+Version 1.2
 
 ========================================================================
 WHAT THIS IS
@@ -53,13 +53,19 @@ SETTING IT UP
 
 1. Put this whole folder inside your BizHawk folder, next to
    EmuHawk.exe. For example: BizHawk\poketcg-access
+   (Putting the mod's files straight into the BizHawk folder, next to
+   EmuHawk.exe, also works.)
 
 2. Put your game file (ending in .gbc) in this folder, next to this
-   readme.
+   readme. If it came inside a zip file, unzip it first. (The BizHawk
+   folder also works.)
 
 3. Double-click PlayTCG.bat in this folder. BizHawk starts the game
    with the mod running. You should hear "Trading card game reader
    ready."
+
+If something is missing, PlayTCG.bat says what in a message box, which
+your screen reader reads. Press Enter to close it.
 
 The mod writes a few files of its own into a "work" folder here: a log
 of everything it said, and a log of anything it could not read. Those
